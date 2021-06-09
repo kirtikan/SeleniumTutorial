@@ -1,0 +1,36 @@
+TestNG - Testing new generation framework, unit testing framework for developers.
+Automation Engineers also use this framework. They integrate with selenium & write very good selenium test cases.
+
+TDD Framework : Test Driven Development
+
+Purpose : 
+-- Design Test cases in a systematic way
+-- Very good HTML reports
+-- Different Annotations
+-- Priorities/sequencing
+-- Dependencies  like this test case depend on another test case
+-- Grouping also possible
+-- Most Imp feature is Data Providing like same test case run with 10 different set of data
+-- Parallel Testing is possible
+-- Generate Logs
+
+
+testNG : Open Source, Free.  Available in the form of jar files.
+Also known as JAVA UNIT TESTING FRAMEWORK
+So TestNg and JUnit are Java Testing Framework
+
+For PHP - php unit framework
+For .Net or C# - N unit framework
+
+
+HOW TO INSTALL TESTNG IN ECLIPSE:::::
+
+Search on Google ::: TestNG pluggin for eclipse
+Location: https://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/
+
+Help -> Install New Software -> Add -> Fill Name & Location -> Click on TestNg -> Next -> Next -> Accept Agreement -> Finish
+        Then after restart, Right click on Project -> Properties -> Java Build Path -> Add Libraries -> Select TestNG -> Apply & Close
+        
+
+
+
