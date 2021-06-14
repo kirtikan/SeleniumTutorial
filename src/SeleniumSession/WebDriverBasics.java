@@ -63,6 +63,7 @@ public class WebDriverBasics {
 		driver1.getCurrentUrl();
 		driver1.getPageSource();
 		driver1.getWindowHandle();
+		driver1.getWindowHandles();
 		
 		driver1.manage();
 		driver1.manage().getCookies();
