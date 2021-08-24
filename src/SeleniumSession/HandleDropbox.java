@@ -12,8 +12,9 @@ public class HandleDropbox {
 		WebDriver driver = new ChromeDriver();  //launching chrome
 		
 		driver.get("https://www.facebook.com/");
-		
+
 		Select select = new Select(driver.findElement(By.id("day")));
+		select.getOptions().size();
 		select.selectByVisibleText("16");
 
 		// 		select.isMultiple();
@@ -26,11 +27,11 @@ public class HandleDropbox {
 //		select.deselectByVisibleText(arg0);
 		//select.deselectAll();
 		
-//		select.getOptions();		
+//	select.getOptions().		
 //		select.getAllSelectedOptions();
 //		select.getFirstSelectedOption();
 
-		
+		boolean b =select.isMultiple();
 
 //		select.equals(obj)
 	

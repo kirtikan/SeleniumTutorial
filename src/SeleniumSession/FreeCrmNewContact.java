@@ -27,7 +27,6 @@ public class FreeCrmNewContact {
 //		driver.findElement(By.xpath("//a[@href='/deals']")).click();
 //		driver.findElement(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button/i")).click();
 		
-		
 		//driver.quit();
 
 	}

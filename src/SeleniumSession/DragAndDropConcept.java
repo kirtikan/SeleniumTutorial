@@ -1,6 +1,7 @@
 package SeleniumSession;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -22,7 +23,8 @@ public class DragAndDropConcept {
 		action.clickAndHold(driver.findElement(By.xpath("//*[@id=\"draggable\"]")))
 		.moveToElement(driver.findElement(By.xpath("//*[@id=\"droppable\"]"))).
 		release().build().perform();
-
+		
+		
 	}
 
 }

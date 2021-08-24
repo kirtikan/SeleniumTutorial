@@ -4,14 +4,18 @@
 
   <test thread-count="5" name="Different TestNG Feature Test">
     
-    <classes>
+    <!-- <classes>
       <class name="com.test.ExceptionTimeOutTest"/>
       <class name="com.test.TestNgBasics"/>
       <class name="com.test.TestNgFeatures"/>
       <class name="com.test.InvocationCountTest"/>
       <class name="com.test.GoogleTitleTest"/>
       <class name="com.test.GoogleTest"/>
-    </classes>
+    </classes> -->
+    
+    <packages>
+    <package name="com.test.*" />
+    </packages>
     
   </test> <!-- Test -->
   

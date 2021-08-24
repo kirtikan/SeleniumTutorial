@@ -46,7 +46,7 @@ public class WebDriverBasics {
 //		driver1.findElement(arg0).getAttribute();
 //		driver1.findElement(arg0).getClass();
 //		driver1.findElement(arg0).getCssValue();
-//		driver1.findElement(arg0).getLocation();
+//	driver1.findElement(arg0).getLocation();
 //		driver1.findElement(arg0).getRect();
 //		driver1.findElement(arg0).getScreenshotAs();
 //		driver1.findElement(arg0).getSize();
@@ -102,6 +102,8 @@ public class WebDriverBasics {
 		
 		//driver1.switchTo();				
 		//driver1.quit();
+		
+		
 	}
 
 }
